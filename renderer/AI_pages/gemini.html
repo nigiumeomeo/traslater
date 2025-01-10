@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trans-later 1</title>
+  <link rel="stylesheet" href="./gemini.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div id="content">
+    <form id="input-form">
+      <label>Words</label><br>
+      <input type="text" required>
+      <button>
+        <i class="fa">&#xf0a9;</i>
+      </button>
+    </form>
+
+    <form id="literal">
+      <label>Literally meanings</label><br>
+      <input type="text" value="Literally meanings here..." disabled>
+    </form>
+
+    <form id="specialized">
+      <label>Specialized meaning</label><br>
+      <textarea disabled>Specialized meaning here...</textarea>
+    </form>
+  </div>
+
+
+  <div id="function">
+    <button id="setting">
+      <i style="font-size:24px" class="fa">&#xf013;</i>
+    </button>
+  </div>
+
+  <div id="setting-pane">
+    <div id="change-api">
+      <button>Change API</button>
+    </div>
+    <div id="word-mode">
+      <button>Normal mode</button>
+    </div>
+    <div id="on-top">
+      <button>On top</button>
+    </div>
+  </div>
+  <script type="module" src="./gemini.js"></script>
+
+</body>
+
+</html>
